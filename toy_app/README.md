@@ -335,3 +335,19 @@ class User < ApplicationRecord
   validates :email, presence: true
 end
 ```
+
+#### 継承
+
+Rubyでは継承関係を<記号で表現します
+
+演習
+1.Applicationコントローラのファイルを開き、ApplicationControllerがActionController::Baseを継承している部分のコードを探してみてください。
+
+a. app/controllers/application_controller.rb
+class ApplicationController < ActionController::Base
+
+
+2.ApplicationRecordがActiveRecord::Baseを継承しているコードはどこにあるでしょうか? 先ほどの演習を参考に、探してみてください。ヒント: コントローラと本質的には同じ仕組みなので、app/modelsディレクトリ内にあるファイルを調べてみると...?)
+
+a. app/models/application_record.rb
+class ApplicationRecord < ActiveRecord::Base
