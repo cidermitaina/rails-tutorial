@@ -29,3 +29,12 @@
 - テスト
 - リファクタリング
 - red ・ green ・ REFACTOR
+
+## 2018.8.18(sat)
+- メソッド定義
+- Rubyにおけるクラス
+- クラス継承
+- パーシャル (partial)
+- Asset Pipeline
+- Userモデル
+- データベース
